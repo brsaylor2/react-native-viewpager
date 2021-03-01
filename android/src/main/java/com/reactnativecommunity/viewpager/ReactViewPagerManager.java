@@ -1,6 +1,4 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
- * <p>
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
@@ -239,6 +237,5 @@ public class ReactViewPagerManager extends ViewGroupManager<ViewPager2> {
         int pageMargin = (int) PixelUtil.toPixelFromDIP(margin);
         pager.setPageTransformer(new MarginPageTransformer(pageMargin));
     }
-
-
 }
+
