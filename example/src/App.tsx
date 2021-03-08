@@ -4,6 +4,7 @@ import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { BasicViewPagerExample } from './BasicViewPagerExample';
 import { KeyboardExample } from './KeyboardExample';
+import { NestedViewPagersExample } from './NestedViewPagersExample';
 import { OnPageScrollExample } from './OnPageScrollExample';
 import { OnPageSelectedExample } from './OnPageSelectedExample';
 import { ScrollableViewPagerExample } from './ScrollableViewPagerExample';
@@ -25,6 +26,10 @@ const examples = [
   {
     component: ScrollViewInsideExample,
     name: 'ScrollView inside ViewPager Example',
+  },
+  {
+    component: NestedViewPagersExample,
+    name: 'Nested ViewPagers Example',
   },
 ];
 
